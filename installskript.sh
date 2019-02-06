@@ -8,7 +8,6 @@ read -s password
 
 sshpass -p $password ssh -o StrictHostKeyChecking=no root@$ipaddress<<EOF
 
-
 #Installing Nginx
 yum install -y epel-release yum-utils
 yum install -y nginx
@@ -37,7 +36,6 @@ systemctl start mysqld
 
 #Installing PHP 7.1
 
-
 yum-config-manager --enable remi-php71
 yum install -y php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysql
 yum install -y php-fpm
@@ -61,9 +59,5 @@ systemctl restart php-fpm
 systemctl restart nginx
 
 EOF
-
-
-
-
 
 done
