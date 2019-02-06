@@ -1,3 +1,6 @@
-192.168.1.160
-192.168.1.247
-192.168.1.157
+#This is examples of how ip addresses should be written
+#Delete everything(including this comments), leave in this file only your ip addresses  
+#192.168.1.160
+#192.168.1.247
+#192.168.1.157
+
